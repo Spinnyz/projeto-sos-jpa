@@ -11,44 +11,50 @@ body{
 
 .logo{
     width: 250px;
+    margin-right: auto;
+    padding-left: 20px;
 }
 
 .cor{
     background-color: #E30613;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .pesquisa-container{
-    position: absolute;
-    top: 20px;
-    right: 50%;
-    transform: translate(50%, 0);
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
 
 .pesquisa{
-    position: absolute;
-    outline: none;
-    top: 20px;
-    right: 50%;
-    transform: translate(50%, 0);
     background-color: #fff;
+    outline: none;
     border-radius: 5px;
     border: 1px solid #E30613;
     padding: 10px;
     width: 300px;
 }
 
-
-
 .bt-pesquisa{
     display: flex;
     justify-content: center;
-    border: 1px solid #E30613;
+    align-items: center;
+    border: none;
     background-color: #E30613;
     color: #fff;
     border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.ftpesq {
     width: 20px;
     height: 20px;
-    
 }
