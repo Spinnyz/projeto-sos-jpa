@@ -24,6 +24,10 @@ body{
 
 }
 
+nav{
+    display: flex;
+    align-items: center;
+}
 .pesquisa-container{
     display: flex;
     justify-content: center;
@@ -35,8 +39,8 @@ body{
 .pesquisa{
     background-color: #fff;
     outline: none;
-    border-radius: 5px;
-    border: 1px solid #E30613;
+    border-radius: 3px;
+    border: 0.5px solid black;
     padding: 10px;
     width: 300px;
 }
@@ -46,15 +50,23 @@ body{
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: #E30613;
+    background-color: rgb(248, 73, 73);
     color: #fff;
-    border-radius: 5px;
-    padding: 10px;
+    height: 37px;
+    width: 37px;
+    border-radius: 3px;
     cursor: pointer;
+    border: 0.5px solid black;
     
 }
 
 .ftpesq {
     width: 20px;
     height: 20px;
+}
+
+.bt-pesquisa:hover{
+    background-color: #E30613;
+    color: #E30613;
+    transition: 0.3s;
 }
