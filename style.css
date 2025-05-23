@@ -24,8 +24,20 @@ body{
     right: 50%;
     transform: translate(50%, 0);
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #E30613;
     padding: 10px;
     width: 300px;
+}
+
+.ftpesq, .bt-pesquisa{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #E30613;
+    background-color: #E30613;
+    color: #fff;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
 }
