@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo{
+    width: 250px;
+}
+
+.cor{
+    background-color: #E30613;
+    height: 80px;
+}
+
+.pesquisa{
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    transform: translate(50%, 0);
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #E30613;
+    padding: 10px;
+    width: 300px;
+}
