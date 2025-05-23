@@ -18,6 +18,14 @@ body{
     height: 80px;
 }
 
+.pesquisa-container{
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    transform: translate(50%, 0);
+    background-color: #fff;
+}
+
 .pesquisa{
     position: absolute;
     outline: none;
@@ -31,7 +39,9 @@ body{
     width: 300px;
 }
 
-.ftpesq{
+
+
+.bt-pesquisa{
     display: flex;
     justify-content: center;
     border: 1px solid #E30613;
