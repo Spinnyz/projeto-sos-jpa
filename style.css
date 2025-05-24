@@ -115,7 +115,8 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #189BCC;
+    text-align: center;
+    background-color: #fff;
     min-width: 370px;
     max-width: 370px;
     width: 100%;
@@ -124,3 +125,15 @@ main{
     padding: 25px;
 
 }
+.name{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 10px;
+}
+
+.rua{
+    font: ;
+}
+
+
