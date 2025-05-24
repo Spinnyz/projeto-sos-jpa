@@ -12,7 +12,7 @@ body{
 .logo{
     width: 250px;
     margin-right: auto;
-    padding-left: 20px;
+
 }
 
 .cor{
@@ -24,10 +24,7 @@ body{
 
 }
 
-nav{
-    display: flex;
-    align-items: center;
-}
+
 .pesquisa-container{
     display: flex;
     justify-content: center;
@@ -37,12 +34,17 @@ nav{
 }
 
 .pesquisa{
+    position: relative;
+    right: 50%;
+    transform: translate(50%);
+    display: flex;
     background-color: #fff;
     outline: none;
     border-radius: 3px;
     border: 0.5px solid black;
+    margin-left:10px ;
     padding: 10px;
-    width: 300px;
+    width: 500px;
 }
 
 .bt-pesquisa{
@@ -57,6 +59,7 @@ nav{
     border-radius: 3px;
     cursor: pointer;
     border: 0.5px solid black;
+    margin-left: -16px;
     
 }
 
@@ -70,3 +73,15 @@ nav{
     color: #E30613;
     transition: 0.3s;
 }
+
+.user{
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+.user:hover{
+    cursor: pointer;
+}
+
+
