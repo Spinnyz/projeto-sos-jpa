@@ -135,7 +135,11 @@ main {
 #banner3{
     background-color:#FFBF00;
 }
-
+#comentarios3{
+    background-color: #FFBF00;
+    font-weight: bold;
+    color: #fff;
+}
 #comentarios2{
     background-color: #2E97BD;
     font-weight: bold;
