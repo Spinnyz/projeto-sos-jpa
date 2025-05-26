@@ -124,6 +124,10 @@ main {
     position: relative;
 }
 
+.denuncia{
+    text-align: end;
+}
+
 .card1:hover, .card2:hover, .comentarios:hover{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
