@@ -129,6 +129,11 @@ main {
     transition: 0.3s;
 }
 
+#comentarios1{
+    margin-top: 10px;
+
+}
+
 #image3{
     background-color: #FFBF00;
 }
