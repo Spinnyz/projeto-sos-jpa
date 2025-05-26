@@ -123,11 +123,9 @@ main {
     padding: 25px;
     position: relative;
 }
-.name, .rua{
-    text-align: center;
-}
-.denuncia{
-   text-align: start;
+
+.span{
+   text-align: justify;
 }
 
 .card1:hover, .card2:hover, .comentarios:hover{
