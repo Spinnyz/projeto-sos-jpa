@@ -253,11 +253,6 @@ main {
     justify-content: center;
 }
 
-
-
-
-
-
 .card-empresa:hover {
     transform: scale(1.05);
 }
@@ -294,4 +289,49 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ambiente {
+    background-color: #e0f7fa;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 24px;
+    margin-top: 60px;
+}
+
+.ambiente-titulo {
+    font-size: 28px;
+    color: #00796B;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.ambiente-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.amb-card {
+    background-color: #ffffff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.amb-card:hover {
+    transform: scale(1.05);
+}
+
+.emoji {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.texto-dica {
+    font-size: 16px;
+    color: #444;
 }
