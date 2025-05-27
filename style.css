@@ -222,3 +222,9 @@ main {
     cursor: pointer;
     font-size: 16px;
 }
+
+.denuncias{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
