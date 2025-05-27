@@ -212,3 +212,67 @@ main {
     color: #E30613;
     font-weight: 600;
 }
+
+.carrossel-empresas {
+    margin: 80px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.titulo-empresas {
+    font-size: 28px;
+    font-weight: 600;
+    color: #E30613;
+    margin-bottom: 10px;
+}
+
+.descricao-empresas {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.container-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-empresa {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.card-empresa:hover {
+    transform: scale(1.05);
+}
+
+.logo-empresa {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.logo-empresaca{
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.nome-empresa {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 5px;
+}
