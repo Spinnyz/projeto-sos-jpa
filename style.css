@@ -336,32 +336,142 @@ main {
     color: #444;
 }
 
-/*pra celular*/
-
-.ambiente-cards {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .ambiente-cards {
-    flex-direction: column; 
-    gap: 15px;
-  }
-  
-  .amb-card {
-    width: 90%;  
-    margin: 0 auto;
-  }
-}
-
-
 @media (max-width: 400px) {
-  .amb-card {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px; 
-  }
+    /* Ajuste do header */
+    .cor {
+        padding: 0 15px;
+        height: 60px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .pesquisa-container {
+        flex: 1;
+        margin-left: 10px;
+    }
+    .pesquisa {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 12px;
+        border-radius: 15px 0 0 15px;
+    }
+    .bt-pesquisa {
+        width: 35px;
+        height: 35px;
+        border-radius: 0 15px 15px 0;
+    }
+    .ftpesq {
+        width: 16px;
+        height: 16px;
+    }
+    .user {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* Ajuste do main */
+    main {
+        padding: 20px 10px;
+    }
+    .denuncias {
+        padding: 20px;
+        max-width: 100%;
+    }
+    .titulo {
+        font-size: 24px;
+    }
+    .oque {
+        font-size: 14px;
+    }
+
+    /* Cards principais */
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card1, .card2 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner {
+        height: 80px;
+    }
+    .image {
+        height: 90px;
+        width: 90px;
+        margin-top: -40px;
+        border-width: 2px;
+    }
+    .text {
+        padding: 15px 10px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .rua {
+        font-size: 14px;
+    }
+    .denuncia {
+        font-size: 13px;
+    }
+    .comentarios {
+        width: 90%;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    /* Empresas responsáveis */
+    .carrossel-empresas {
+        padding: 0 10px;
+    }
+    .titulo-empresas {
+        font-size: 22px;
+    }
+    .descricao-empresas {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .container-logos {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .card-empresa {
+        width: 90%;
+        padding: 15px;
+    }
+    .logo-empresa, .logo-empresacentra {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 8px;
+    }
+    .nome-empresa {
+        font-size: 14px;
+    }
+
+    /* Seção ambiente */
+    .ambiente {
+        padding: 40px 10px;
+    }
+    .ambiente-titulo {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .ambiente-cards {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .amb-card {
+        width: 100%;
+        max-width: 320px;
+        padding: 15px;
+    }
+    .emoji {
+        font-size: 32px;
+    }
+    .texto-dica {
+        font-size: 14px;
+    }
 }
+
